@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+.form{
+	height: 446px;
+}
+.form > p{
+	margin: 15px 0px;	
+}
+.option, option{
+	color: black;
+    padding: 2px;
+    border-radius: 6px;
+}
