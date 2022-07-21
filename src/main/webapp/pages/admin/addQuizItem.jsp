@@ -12,7 +12,7 @@
 <body>
 	<div class="heading">
 		<p class="adminDeshbord">${obj}</p>
-		<a class="logout" href=""> Logout </a>
+		<a class="logout" href="/logout"> Logout </a>
 	</div>
 	<div class="container">
 		<p class="headingPage">Add New ${insertItem} for Learning</p>

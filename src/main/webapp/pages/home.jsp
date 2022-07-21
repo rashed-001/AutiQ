@@ -14,21 +14,20 @@
 </head>
 <body>
     <!-- header start -->
-    <p>${obj}</p>
     <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="/images/logo2.png" width="125px" alt="Not found database erroe!!">
+                    <img class="logo" src="/images/logo2.png"  alt="Not found database erroe!!">
                 </div>
                 <nav>
                     <ul id="MenuItems">
                         <li> <a href="">Home</a> </li>
                         <li> <a href="/learningItems">Learning</a> </li>
                          <li> <a href="">IQ</a> </li>
-                        <li> <a href="">About</a> </li>
+                        <li> <a href="/logout">About</a> </li>
                         <li> <a href="">Contact</a> </li>
-                        <li> <a href="/learningItems">Sign In/Reg</a> </li>
+                        <li> <a href="/login">Sign In</a> </li>
                     </ul>
                 </nav>
                 <img src="/images/menu.png" class="menu-icon" onclick="menutoggle()">

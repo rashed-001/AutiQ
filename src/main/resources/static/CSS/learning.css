@@ -16,11 +16,19 @@ body{
     height: 70px;
     box-sizing: border-box;
     padding: 5px;
-    border: 1px solid green;
+    border: 1px solid #870943;
+    background: #870943;
+    box-shadow: 2px 2px 10px #05057a;
+}
+.logo{
+	width: 150px;
+    height: 110px;
+    margin: -37px;
+    margin-left: 10px;
 }
 .heading-left{
 	float: left;
-    border: 1px solid red;
+   
     width: 60px;
     margin: 15px 10px 10px 40px;
 }
@@ -33,40 +41,55 @@ body{
 }
 
 .container{
-	border: 1px solid red;
+	
     width: 99%;
     margin: 0 auto;
 
 }
 .container-main{
 	width: 70%;
-    border: 1px solid blue;
+
     margin: 0 auto;
 }
 .view{
 	height: 400px;
 }
 .remaining{
-	width: 3%;
+	width: 14%;
     float: right;
-    border: 1px solid green;
+    font-size: 32px;
+    letter-spacing: 6px;
+    color: #ff125d;
+
 }
 .remainingScore{
-	width: 12%;
+	 width: 16%;
     float: left;
-    border: 1px solid green;	
+    font-size: 20px;
+
+  
 }
 .viewArea{
 	width: 65%;
-    border: 1px solid green;
+   
     height: 340px;
     margin: 22px auto;
 }
+.nameItem{
+	text-align: center;
+    font-size: 28px;
+    margin-top: -26px;
+    color: #ff1662;
+}
 .image{
-	width: 530px;
+	 width: 530px;
     height: 300px;
     margin: 34px auto;
     display: block;
+    border-radius: 20px;
+    border: 7px solid #f5f5f5;
+    box-shadow: 3px 3px 7px #000000;
+
 
 }
 .btn{
@@ -84,14 +107,15 @@ body{
     padding: 5px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #ad0049;
-    background: #0025d9;
+    border: 1px solid #c3c3c3;
+    background: #950145;
     font-size: 14px;
     color: white;
+    cursor: pointer;
 
 }
 .btn-desing:hover{
-	background: #000000;
+	    background: #bf0776;
 }
 .container-sideber{
 	

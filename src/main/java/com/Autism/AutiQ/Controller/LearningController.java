@@ -40,7 +40,7 @@ public class LearningController {
 	@GetMapping("/all")
 	public List<Learn> getAllLearningItem()
 	{
-		System.out.println("Get all Learning Item");
+		
 		List<Learn> learn = null;
 		try {
 			learn = learnService.getAll();  

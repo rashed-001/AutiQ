@@ -24,7 +24,7 @@
                         <li> <a href="/root">Learning</a> </li>
                         <li> <a href="/root">IQ Test</a> </li>
                         <li> <a href="/root">Profile</a> </li>
-                        <li> <a href="">Logout</a> </li>
+                        <li> <a href="/logout">Logout</a> </li>
                     </ul>
                 </nav>
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png">
+                   <img  class="logo" src="/images/logo2.png"  alt="Not found database erroe!!">
                     <p>Our Purpose is to sutainably make
                         the pleasure and benefits of sports
                     to the many </p>

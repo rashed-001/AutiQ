@@ -10,9 +10,8 @@ public class RootController {
 	@RequestMapping("root")
 	public ModelAndView root()
 	{
-		System.out.println("Root");
+
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("obj", "Hi Mehedi");
 		mv.setViewName("root");
 		
 		return mv;

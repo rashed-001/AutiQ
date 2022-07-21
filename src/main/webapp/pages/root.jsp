@@ -5,17 +5,19 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Learning and Quiz</title>
+ <link rel="stylesheet" href="/CSS/learning.css">
  <link rel="stylesheet" href="/CSS/root.css">
+
 </head>
 <body>
-	<p>${obj}</p>
-	<div class="heading">
-		<div class="heading-left">  <img src="/images/logo2.png" width="125px" alt="Not found database erroe!!"></div>
+		<div class="heading">
+		<div class="heading-left">  <img class="logo" src="/images/logo2.png" alt="Not found database erroe!!"></div>
 		<div class="heading-right">
 			<p>Welcome Name</p>
 			<p>Profile</p>
 			<p>Logout</p>
 		</div>
+
 	</div>
 	<div class="main">
 		<div class="container">

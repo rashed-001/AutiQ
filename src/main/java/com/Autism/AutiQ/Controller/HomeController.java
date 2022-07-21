@@ -9,18 +9,25 @@ public class HomeController {
 	@RequestMapping("/")
 	public ModelAndView home()
 	{
-		System.out.println("Good Best");
+
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("obj", "Hi Mehedi");
 		mv.setViewName("home");
 		return mv;
 	}
+	
+	@RequestMapping("/login")
+	public ModelAndView login()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("login");
+		return mv;
+	}
+	
 	@RequestMapping("home")
 	public ModelAndView home1()
 	{
-		System.out.println("Mehedi");
+		
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("obj", "Hi Mehedi");
 		mv.setViewName("home");
 		return mv;
 	}
@@ -28,9 +35,7 @@ public class HomeController {
 	@RequestMapping("/learningItems")
 	public ModelAndView root()
 	{
-		System.out.println("Mehedi");
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("obj", "Hi Mehedi");
 		mv.setViewName("learningItems");
 		return mv;
 	}

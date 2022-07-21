@@ -7,12 +7,13 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="/CSS/learning.css">
 <link rel="stylesheet" href="/CSS/quiz.css">
+
 </head>
 <body>
 	<p>${obj}</p>
 
 	<div class="heading">
-		<div class="heading-left">  <img src="/images/logo2.png" width="125px" alt="Not found database erroe!!"></div>
+		<div class="heading-left">  <img  class="logo" src="/images/logo2.png"  alt="Not found database erroe!!"></div>
 		<div class="heading-right">
 			<p>Welcome Name</p>
 			<p>Profile</p>
@@ -25,7 +26,7 @@
 			<h3 class="headingCenter">${name} IQ Quiz</h3>
 			<div class="view">
 				<p class="remainingScore">
-					<span>Your Score:<b class="result1"></b></span>
+					<span>Your Score: <b class="result1"></b></span>
 				</p>
 				<p class="remaining">
 					<span class="Remaing"></span>/<span class="Length"></span>
@@ -33,7 +34,7 @@
 				<div class="viewArea">
 					<p class="dataShow">
 						<img class="image" src="" alt="Image not Found" />
-						<span class="hide">Your Score:<b class="result"></b></span>
+						<span class="hide">Your Score: <b class="result"></b></span>
 					</p>
 				</div>
 

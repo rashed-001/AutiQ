@@ -6,12 +6,13 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" href="/CSS/learning.css">
+
 </head>
 <body>
 	<p>${obj}</p>
 	
 	<div class="heading">
-		<div class="heading-left">  <img src="/images/logo2.png" width="125px" alt="Not found database erroe!!"></div>
+		<div class="heading-left">  <img class="logo" src="/images/logo2.png" alt="Not found database erroe!!"></div>
 		<div class="heading-right">
 			<p>Welcome Name</p>
 			<p>Profile</p>
@@ -28,7 +29,7 @@
 					<img class="image" src="" alt="Image not Found" />
 					</p>
 				</div>
-				
+				<p class="nameItem"></p>
 			</div>
 			<div class="btn">
 				<button class="prev btn-desing" onclick="nextPrev(1)" > Prev </button>
@@ -58,6 +59,7 @@
 				console.log(obj);
 				document.querySelector(".Length").innerHTML = obj.length; 
 				document.querySelector(".Remaing").innerHTML = index+1; 
+				document.querySelector(".nameItem").innerHTML = obj[index].name;
 				SRC = srcImage + obj[index].image; 
 				document.querySelector(".image").src = SRC;
 				
@@ -80,6 +82,7 @@
 				{
 					index--;
 					document.querySelector(".Remaing").innerHTML = index+1; 
+					document.querySelector(".nameItem").innerHTML = obj[index].name;
 					SRC = srcImage + obj[index].image; 
 					document.querySelector(".image").src = SRC;
 				
@@ -88,6 +91,7 @@
 				else{
 					index = 0;
 					document.querySelector(".Remaing").innerHTML = index+1; 
+					document.querySelector(".nameItem").innerHTML = obj[index].name;
 					SRC = srcImage + obj[index].image; 
 					document.querySelector(".image").src = SRC;
 					
@@ -103,6 +107,7 @@
 				{
 					index++;
 					document.querySelector(".Remaing").innerHTML = index+1; 
+					document.querySelector(".nameItem").innerHTML = obj[index].name;
 					SRC = srcImage + obj[index].image; 
 					document.querySelector(".image").src = SRC;
 					
@@ -111,6 +116,7 @@
 				else{
 					index = obj.length-1;
 					document.querySelector(".Remaing").innerHTML = index+1; 
+					document.querySelector(".nameItem").innerHTML = obj[index].name;
 					SRC = srcImage + obj[index].image; 
 					document.querySelector(".image").src = SRC;
 					

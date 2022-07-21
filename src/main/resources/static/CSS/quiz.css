@@ -9,6 +9,12 @@ body{
     background-color: #20003a;
 	 
 }
+.logo{
+	width: 150px;
+    height: 110px;
+    margin: -37px;
+    margin-left: 10px;
+}
 .headingCenter{
 	text-align: center;
 }
@@ -29,9 +35,12 @@ body{
 	display: block;
     text-align: center;
     margin: 100px;
-    font-size: 32px;
+    font-size: 63px;
+    color: #f70067;
 }
-
+.result{
+	
+}
 .heart{
 	position: fixed;
 	top: -5vh;
