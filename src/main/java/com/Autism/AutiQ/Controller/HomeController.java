@@ -23,7 +23,7 @@ public class HomeController {
 		return mv;
 	}
 	
-	@RequestMapping("home")
+	@RequestMapping("/home")
 	public ModelAndView home1()
 	{
 		
@@ -40,5 +40,22 @@ public class HomeController {
 		return mv;
 	}
 	
+	@RequestMapping("/about")
+	public ModelAndView about()
+	{
+		
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("about");
+		return mv;
+	}
+	
+	@RequestMapping("/contact")
+	public ModelAndView contact()
+	{
+		
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("contact");
+		return mv;
+	}
 	
 }
