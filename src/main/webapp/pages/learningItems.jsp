@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insert title here</title>
+<title>All Learning Items</title>
 	 <link rel="stylesheet" href="/CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,9 +22,10 @@
                 </div>
                 <nav>
                     <ul id="MenuItems">
-                        <li> <a href="/root">Learning</a> </li>
+                        <li> <a href="/">Home</a> </li>
+                        <li> <a href="/puzzle">puzzle</a> </li>
+                        <li> <a href="/learningItems">Learning</a> </li>
                         <li> <a href="/root">IQ Test</a> </li>
-                        <li> <a href="/root">Profile</a> </li>
                         <li> <a href="/logout">Logout</a> </li>
                     </ul>
                 </nav>
@@ -37,7 +38,7 @@
                     <p>
                         If they can't learn the way we teach, <br> we teach the way they learn.
                         
-                        <a href="index.html" class="btn"> Back to Home &#8594;</a>
+                        <a href="/" class="btn"> Back to Home &#8594;</a>
                     </p>
                 </div>
                 <div class="col2">
@@ -50,19 +51,9 @@
 
    <!-- body start     -->
 
-   <!-- <div class="catagories">
-    <div class="small-container">
-        <div class="row">
-            <div class="col3">
-                <img src="images/image1.webp" alt="not Found">
-            </div>
-            <div class="col3"><img src="images/img3.png" alt="Not Found"></div>
-            <div class="col3"><img src="images/img4.png" alt="Not Found"></div>
-        </div>
-    </div>
-</div> -->
-
     <!-- Learn things -->
+
+    <!-- colors -->
 <div class="header2">
  <div class="container">
     <div class="row">
@@ -74,7 +65,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="/root" class="btn"> Learn Color &#8594;</a>
+                <a href="/learning/color" class="btn"> Learn Color &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -92,7 +83,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="/root" class="btn"> Learn Fruits &#8594;</a>
+                <a href="/learning/fruit" class="btn"> Learn Fruits &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -110,14 +101,140 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="/root" class="btn"> Learn Birds &#8594;</a>
+                <a href="Learn/bird.html" class="btn"> Learn Birds &#8594;</a>
             </p>
         </div>
         <div class="col2">
             <img src="images/BIRDS.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
         </div>
     </div>
-    <!-- bird finished -->
+
+    <!-- Domestic animals -->
+    <div class="row">
+        <div class="col2">
+            <h1>Learn about Domestic Animals <br> The way you can learn.</h1>
+            <p>
+                Here <br>
+                You can learn about <b>Animals</b><br>
+                after clicking below buttton <br>
+                Lets start <br>
+                
+                <a href="Learn/domestic.html" class="btn"> Learn Domestic &#8594;</a>
+            </p>
+        </div>
+        <div class="col2">
+            <img src="images/Domestic-Animals-Flashcards_page-0003.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
+        </div>
+    </div>
+
+    <!-- Wild Animals -->
+    <div class="row">
+        <div class="col2">
+            <h1>Learn about wild animals <br> The way you can learn.</h1>
+            <p>
+                Here <br>
+                You can learn about <b>Wild Animals</b><br>
+                after clicking below buttton <br>
+                Lets start <br>
+                
+                <a href="Learn/wild.html" class="btn"> Learn Wild Animals &#8594;</a>
+            </p>
+        </div>
+        <div class="col2">
+            <img src="images/Wild-Animals-Flashcards_page-0011.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
+        </div>
+    </div>
+
+    <!-- Weather -->
+    <div class="row">
+        <div class="col2">
+            <h1>Learn about Weather <br> The way you can learn.</h1>
+            <p>
+                Here <br>
+                You can learn about <b>Weather</b><br>
+                after clicking below buttton <br>
+                Lets start <br>
+                
+                <a href="Learn/weather.html" class="btn"> Learn Weather &#8594;</a>
+            </p>
+        </div>
+        <div class="col2">
+            <img src="images/Weather-Flashcards_page-0002.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
+        </div>
+    </div>
+
+    <!-- Flowers -->
+    <div class="row">
+        <div class="col2">
+            <h1>Learn about Flowers <br> The way you can learn.</h1>
+            <p>
+                Here <br>
+                You can learn about <b>Flowers</b><br>
+                after clicking below buttton <br>
+                Lets start <br>
+                
+                <a href="Learn/flower.html" class="btn"> Learn Flowers &#8594;</a>
+            </p>
+        </div>
+        <div class="col2">
+            <img src="images/Flowers-Flashcards_page-0003.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
+        </div>
+    </div>
+
+    <!-- Vegetables -->
+    <div class="row">
+        <div class="col2">
+            <h1>Learn about Vegetables <br> The way you can learn.</h1>
+            <p>
+                Here <br>
+                You can learn about <b>Vehgetables</b><br>
+                after clicking below buttton <br>
+                Lets start <br>
+                
+                <a href="Learn/vegetables.html" class="btn"> Learn Veg &#8594;</a>
+            </p>
+        </div>
+        <div class="col2">
+            <img src="images/Flashcards-Veges-1_page-0009.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
+        </div>
+    </div>
+
+    <!-- Vehicles -->
+    <div class="row">
+        <div class="col2">
+            <h1>Learn about Vehicles <br> The way you can learn.</h1>
+            <p>
+                Here <br>
+                You can learn about <b>Vehicles</b><br>
+                after clicking below buttton <br>
+                Lets start <br>
+                
+                <a href="Learn/vehicles.html" class="btn"> Learn Vehicles &#8594;</a>
+            </p>
+        </div>
+        <div class="col2">
+            <img src="images/Vechicles-Flashcards_page-0002.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="row">
+        <div class="col2">
+            <h1>Learn about birds <br> The way you can learn.</h1>
+            <p>
+                Here <br>
+                You can learn about <b>our body parts</b><br>
+                after clicking below buttton <br>
+                Lets start <br>
+                
+                <a href="Learn/body.html" class="btn"> Learn Body parts &#8594;</a>
+            </p>
+        </div>
+        <div class="col2">
+            <img src="images/Flashcard-Parts-of-the-Body_page-0009.jpg" height="600px"width="600px" alt="Not found! DBMS Error!">
+        </div>
+    </div>
+    <!-- Finish learn -->
 
  </div>
 </div>
@@ -139,7 +256,7 @@
                     </div>
                 </div>
                 <div class="footer-col-2">
-                   <img  class="logo" src="/images/logo2.png"  alt="Not found database erroe!!">
+                    <img src="images/logo2.png">
                     <p>Our Purpose is to sutainably make
                         the pleasure and benefits of sports
                     to the many </p>
@@ -183,5 +300,4 @@
         }
     </script>
 </body>
-
 </html>

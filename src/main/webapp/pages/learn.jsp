@@ -1,46 +1,52 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insert title here</title>
-<link rel="stylesheet" href="/CSS/learning.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning</title>
 
+    <link rel="stylesheet" href="/CSS/stylelearn.css">
 </head>
 <body>
-	<p>${obj}</p>
-	
-	<div class="heading">
-		<div class="heading-left">  <img class="logo" src="/images/logo2.png" alt="Not found database erroe!!"></div>
-		<div class="heading-right">
-			<p>Welcome Name</p>
-			<p>Profile</p>
-			<p>Logout</p>
-		</div>
-	</div>
+     <img class="logo" src="/images/logo2.png"  alt="Not found database erroe!!">
 
-	<div class="container">
-		<div class="container-main">
-			<div class="view">
-				<p class="remaining"><span class="Remaing"></span>/<span class="Length"></span></p>
-				<div class="viewArea">
-					<p class="dataShow">
-					<img class="image" src="" alt="Image not Found" />
-					</p>
-				</div>
-				<p class="nameItem"></p>
-			</div>
-			<div class="btn">
-				<button class="prev btn-desing" onclick="nextPrev(1)" > Prev </button>
-				<button class="next btn-desing" onclick="nextPrev(2)" > Next </button>
-			</div>
-		</div>
-		<div class="container-sideber"></div>
-	</div>
+	<h2 class="heading"> Learning ${Name}</h2>
+    <div class="slideshow-container">
 
-	<script type="text/javascript">
+        <div class="mySlides fade">
+            <div class="numbertext"><span class="Remaing"></span>/ <span class="Length"></span></div>
+            <img class="image" src="" alt="Image not Found" />
+            <div class="text"> <h4 class="nameItem" ></h4> </div>
+        </div>
+
+        <a class="prev" onclick="nextPrev(1)">&#10094;</a>
+        <a class="next" onclick="nextPrev(2)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="/JS/scriptlearn.js"></script>
+    <div>
+        <a href="/learningItems" class="btn2"> &#8594;Back </a>
+
+        <a href="/root" class="btn2" > IQ Test &#8594;</a>
+
+        <a href="/" class="btn2" > Home &#8594;</a>
+    </div>
+    
+    
+    
+    <!-- Featch The data and Show -->
+    
+    <script type="text/javascript">
 		/* Ajax Requext send to get the data */
 		let catagory = ${catagory};
 		let obj = [];

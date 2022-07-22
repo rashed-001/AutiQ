@@ -23,8 +23,9 @@ public class LearningController {
 	public ModelAndView learningColor()
 	{
 		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Color");
 		mv.addObject("catagory", 1);
-		mv.setViewName("learning");
+		mv.setViewName("learn");
 		return mv;
 	}
 	
@@ -32,8 +33,9 @@ public class LearningController {
 	public ModelAndView learningFruit()
 	{
 		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Fruit");
 		mv.addObject("catagory", 2);
-		mv.setViewName("learning");
+		mv.setViewName("learn");
 		return mv;
 	}
 	
