@@ -40,6 +40,14 @@ public class HomeController {
 		return mv;
 	}
 	
+	@RequestMapping("/puzzle")
+	public ModelAndView puzzle()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("puzzle");
+		return mv;
+	}
+	
 	@RequestMapping("/about")
 	public ModelAndView about()
 	{
