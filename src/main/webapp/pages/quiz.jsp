@@ -16,9 +16,11 @@
 	<div class="heading">
 		<div class="heading-left">  <img  class="logo" src="/images/logo2.png"  alt="Not found database erroe!!"></div>
 		<div class="heading-right">
-			<p>Welcome Name</p>
-			<p>Profile</p>
-			<p>Logout</p>
+			<p><a href="/">Home</a></p>
+			<p><a href="/learningItems">Learning</a></p>
+			<p><a href="/puzzle">Puzzle</a></p>
+			<p><a href="/root">IQ Quiz</a></p>
+			<p><a href="/logout">Logout</a></p>
 		</div>
 	</div>
 

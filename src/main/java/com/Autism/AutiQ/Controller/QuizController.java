@@ -29,12 +29,32 @@ public class QuizController {
 		return mv;
 	}
 	
-	@GetMapping("/bird")
-	public ModelAndView quizBird()
+	@GetMapping("/fruit")
+	public ModelAndView fruit()
 	{
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("catagory", 2);
 		mv.addObject("name", "Bird");
+		mv.setViewName("quiz");
+		return mv;
+	}
+	
+	@GetMapping("/bodyParts")
+	public ModelAndView bodyParts()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("catagory", 3);
+		mv.addObject("name", "Body Parts");
+		mv.setViewName("quiz");
+		return mv;
+	}
+	
+	@GetMapping("/different")
+	public ModelAndView allMixture()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("catagory", 4);
+		mv.addObject("name", "All Mixture ");
 		mv.setViewName("quiz");
 		return mv;
 	}

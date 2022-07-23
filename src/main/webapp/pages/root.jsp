@@ -14,29 +14,29 @@
 		<div class="heading">
 		<div class="heading-left">  <img class="logo" src="/images/logo2.png" alt="Not found database erroe!!"></div>
 		<div class="heading-right">
-			<p>Welcome Name</p>
-			<p>Profile</p>
-			<p>Logout</p>
+				<p><a href="/">Home</a></p>
+				<p><a href="/learningItems">Learning</a></p>
+				<p><a href="/puzzle">Puzzle</a></p>
+				<p><a href="/root">IQ Quiz</a></p>
+			<p><a href="/logout">Logout</a></p>
 		</div>
 
 	</div>
 	<div class="main">
 		<div class="container">
-			<div class="box1 box activeColor">Learning</div>
-			<div class="box2 box">IQ Quiz</div>
+			<div class="box1 box activeColor">IQ Quiz</div>
+			<div class="box2 box">Puzzle</div>
 		</div>
 		<div class="learning active">
-			<a  class="box-card"  href="/learning/color">Learn Color</a>
-			<a  class="box-card"  href="/learning/fruit">Learn Fruit</a>
-			<div class="box-card">L box3</div>
-			<div class="box-card">L box4</div>
+			<a  class="box-card"  href="/quiz/color">Color IQ</a>
+			<a  class="box-card"  href="/quiz/fruit">Fruit IQ</a>
+			<a  class="box-card"  href="/quiz/bodyParts">Body Parts IQ</a>
+			<a  class="box-card"  href="/quiz/different">All Mixture IQ</a>
 			
 		</div>
 		<div class="IqQuiz">
-			<a  class="box-card"  href="/quiz/color">Color Quiz</a>
-			<a  class="box-card"  href="/quiz/bird">Bird Quiz</a>
-			<div class="box-card">Q box3</div>
-			<div class="box-card">Q box4</div>
+			<a  class="box-card"  href="/puzzle">Solve Puzzle</a>
+			
 		</div>
 	</div>
 	
