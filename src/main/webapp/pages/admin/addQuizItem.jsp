@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Add Quiz</title>
 <link rel="stylesheet" href="/CSS/admin.css">
 <link rel="stylesheet" href="/CSS/addLearningItem.css">
 <link rel="stylesheet" href="/CSS/addQuizItem.css">
@@ -15,7 +15,7 @@
 		<a class="logout" href="/logout"> Logout </a>
 	</div>
 	<div class="container">
-		<p class="headingPage">Add New ${insertItem} for Learning</p>
+		<p class="headingPage">Add New ${insertItem} Quiz</p>
 
 		<form class="form" action="${path}" method="post"
 			enctype="multipart/form-data">

@@ -53,7 +53,7 @@ public class AddQuizItemContoller {
 		}
 		
 	@GetMapping("/color")
-	public ModelAndView getColorQuiz()
+	public ModelAndView ColorQuiz()
 	{
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("obj", "DeshBoard");
@@ -64,18 +64,40 @@ public class AddQuizItemContoller {
 		return mv;
 	}
 	
-	@GetMapping("/bird")
-	public ModelAndView getBirdQuiz()
+	@GetMapping("/fruit")
+	public ModelAndView FruitQuiz()
 	{
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("obj", "DeshBoard");
-		mv.addObject("insertItem", "Bird");
+		mv.addObject("insertItem", "Fruit");
 		mv.addObject("catagory", "2");
 		mv.addObject("path", "/admin/add/quiz");
 		mv.setViewName("/admin/addQuizItem");
 		return mv;
 	}
+	@GetMapping("/bodyParts")
+	public ModelAndView bodyPartsQuiz()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("obj", "DeshBoard");
+		mv.addObject("insertItem", "Body Parts");
+		mv.addObject("catagory", "3");
+		mv.addObject("path", "/admin/add/quiz");
+		mv.setViewName("/admin/addQuizItem");
+		return mv;
+	}
 	
+	@GetMapping("/different")
+	public ModelAndView differentQuiz()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("obj", "DeshBoard");
+		mv.addObject("insertItem", "All Mixture");
+		mv.addObject("catagory", "4");
+		mv.addObject("path", "/admin/add/quiz");
+		mv.setViewName("/admin/addQuizItem");
+		return mv;
+	}
 	@PostMapping()
 	public ModelAndView addColor( HttpServletRequest request, HttpServletResponse responser)throws ServletException, IOException
 	{
@@ -117,7 +139,8 @@ public class AddQuizItemContoller {
 		}
 		
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("/admin/addLearningItem");
+		mv.addObject("success", "Add Successfully");
+		mv.setViewName("/admin/admin");
 		return mv;
 	}
 }

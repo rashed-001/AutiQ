@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insert title here</title>
+<title>Login Page</title>
 <link rel="stylesheet" href="/CSS/admin.css">
 <link rel="stylesheet" href="/CSS/addLearningItem.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,14 +17,16 @@
 	<div class="logo" style="margin-left: 50px">
                   <a href="/">  <img class="logo" src="/images/logo2.png" width="125px"  alt="Not found database erroe!!"> </a>
                 </div>
+                <p style="text-align: center; color: green;">${sc}</p>
 	<div class="container">
 		<p class="headingPage"> Login </p>
-		
 		<form class="form" action="login" method="post" >
 		 <p>User Name: <br/> <input type="text" name="username" required/> </p>
 		  <p>Password: <br/> <input type="text" name="password" required/> </p>
 		 <button class="btn" type="submit">Submit</button>
+		 <p style="text-align: center;"> <a style="text-decoration: none;" href="/registration">Or Sign up</a></p>
 		</form>
+		
 	</div>
 </body>
 </html>

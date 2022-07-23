@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Add new Items</title>
 <link rel="stylesheet" href="/CSS/admin.css">
 <link rel="stylesheet" href="/CSS/addLearningItem.css">
 </head>

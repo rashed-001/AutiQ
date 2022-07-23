@@ -68,11 +68,11 @@ public class AddLearningItemController {
 	}
 	
 	@GetMapping("/fruit")
-	public ModelAndView show1()
+	public ModelAndView fruit()
 	{
 		System.out.println("Color Insert Page");
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("insertItem", "Color");
+		mv.addObject("insertItem", "Fruit");
 		mv.addObject("obj", "Deshboard");
 		mv.addObject("catagory", 2);
 		mv.addObject("path", "/admin/add/learning");
@@ -80,6 +80,110 @@ public class AddLearningItemController {
 		return mv;
 	}
 	
+	@GetMapping("/bird")
+	public ModelAndView bird()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "Bird");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory", 3);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
+	
+	@GetMapping("/domestic")
+	public ModelAndView domestic()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "Domestic Animal");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory",4);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
+	
+	@GetMapping("/wildAnimal")
+	public ModelAndView wildAnimal()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "Wild Animal");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory",5);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
+	
+	@GetMapping("/weather")
+	public ModelAndView weather()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "weather");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory",6);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
+	
+	@GetMapping("/flowers")
+	public ModelAndView flowers()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "Flowers");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory",7);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
+	
+	@GetMapping("/vegetables")
+	public ModelAndView vegetables()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "vegetables");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory",8);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
+	
+	
+	@GetMapping("/vehicles")
+	public ModelAndView vehicles()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "Vehicles");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory", 9);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
+	
+	@GetMapping("/bodyParts")
+	public ModelAndView bodyParts()
+	{
+		System.out.println("Color Insert Page");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("insertItem", "bodyParts");
+		mv.addObject("obj", "Deshboard");
+		mv.addObject("catagory", 10);
+		mv.addObject("path", "/admin/add/learning");
+		mv.setViewName("/admin/addLearningItem");
+		return mv;
+	}
 	@PostMapping()
 	public ModelAndView addColor( HttpServletRequest request, HttpServletResponse responser)throws ServletException, IOException
 	{
@@ -111,7 +215,8 @@ public class AddLearningItemController {
 		}
 		
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("/admin/addLearningItem");
+		mv.addObject("success", "Add Successfully");
+		mv.setViewName("/admin/admin");
 		return mv;
 	}
 	

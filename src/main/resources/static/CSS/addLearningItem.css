@@ -19,13 +19,13 @@
 .form{
 	width: 72%;
     margin: 0 auto;
-    height: 232px;
+    height: 271px;
 }
 .form > p{
 	margin: 25px 0px;
 }
 input{
-	width: 60%;
+	width: 89%;
     height: 25px;
     color: #7474a3;
     padding-left: 3px;
