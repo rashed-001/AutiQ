@@ -75,11 +75,14 @@ img {
 
 /* Number text (1/11 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    background: #7f00d1;
+    color: #ffffff;
+    /* border: 1px solid #3cc302; */
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    right: 0;
 }
 
 /* The dots/bullets/indicators */

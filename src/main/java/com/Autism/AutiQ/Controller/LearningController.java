@@ -39,6 +39,86 @@ public class LearningController {
 		return mv;
 	}
 	
+	@GetMapping("/bird")
+	public ModelAndView bird()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Bird");
+		mv.addObject("catagory", 3);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
+	@GetMapping("/domestic")
+	public ModelAndView domestic()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Domistic Animals");
+		mv.addObject("catagory", 4);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
+	@GetMapping("/wildAnimal")
+	public ModelAndView wildAnimal()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Wild Animals");
+		mv.addObject("catagory", 5);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
+	@GetMapping("/weather")
+	public ModelAndView weather()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Weather");
+		mv.addObject("catagory", 6);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
+	@GetMapping("/flowers")
+	public ModelAndView flowers()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "flowers");
+		mv.addObject("catagory", 7);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
+	@GetMapping("/vegetables")
+	public ModelAndView vegetables()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Vegetables");
+		mv.addObject("catagory", 8);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
+	@GetMapping("/vehicles")
+	public ModelAndView vehicles()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Vehicles");
+		mv.addObject("catagory", 9);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
+	@GetMapping("/bodyParts")
+	public ModelAndView bodyParts()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("Name", "Body Parts");
+		mv.addObject("catagory", 10);
+		mv.setViewName("learn");
+		return mv;
+	}
+	
 	@GetMapping("/all")
 	public List<Learn> getAllLearningItem()
 	{

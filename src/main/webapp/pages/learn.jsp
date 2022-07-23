@@ -13,10 +13,12 @@
      <img class="logo" src="/images/logo2.png"  alt="Not found database erroe!!">
 
 	<h2 class="heading"> Learning ${Name}</h2>
+	
     <div class="slideshow-container">
-
+    
+		 <div class="numbertext"><span class="Remaing"></span>/ <span class="Length"></span></div>
+       
         <div class="mySlides fade">
-            <div class="numbertext"><span class="Remaing"></span>/ <span class="Length"></span></div>
             <img class="image" src="" alt="Image not Found" />
             <div class="text"> <h4 class="nameItem" ></h4> </div>
         </div>

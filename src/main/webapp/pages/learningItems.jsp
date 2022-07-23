@@ -101,7 +101,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/bird.html" class="btn"> Learn Birds &#8594;</a>
+                <a href="/learning/bird" class="btn"> Learn Birds &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -119,7 +119,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/domestic.html" class="btn"> Learn Domestic &#8594;</a>
+                <a href="/learning/domestic" class="btn"> Learn Domestic &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -137,7 +137,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/wild.html" class="btn"> Learn Wild Animals &#8594;</a>
+                <a href="/learning/wildAnimal" class="btn"> Learn Wild Animals &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -155,7 +155,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/weather.html" class="btn"> Learn Weather &#8594;</a>
+                <a href="/learning/weather" class="btn"> Learn Weather &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -173,7 +173,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/flower.html" class="btn"> Learn Flowers &#8594;</a>
+                <a href="/learning/flowers" class="btn"> Learn Flowers &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -191,7 +191,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/vegetables.html" class="btn"> Learn Veg &#8594;</a>
+                <a href="/learning/vegetables" class="btn"> Learn Veg &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -209,7 +209,7 @@
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/vehicles.html" class="btn"> Learn Vehicles &#8594;</a>
+                <a href="/learning/vehicles" class="btn"> Learn Vehicles &#8594;</a>
             </p>
         </div>
         <div class="col2">
@@ -220,14 +220,14 @@
     <!-- Body -->
     <div class="row">
         <div class="col2">
-            <h1>Learn about birds <br> The way you can learn.</h1>
+            <h1>Learn about Body Parts <br> The way you can learn.</h1>
             <p>
                 Here <br>
                 You can learn about <b>our body parts</b><br>
                 after clicking below buttton <br>
                 Lets start <br>
                 
-                <a href="Learn/body.html" class="btn"> Learn Body parts &#8594;</a>
+                <a href="/learning/bodyParts" class="btn"> Learn Body parts &#8594;</a>
             </p>
         </div>
         <div class="col2">
