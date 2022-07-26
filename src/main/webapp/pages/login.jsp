@@ -22,7 +22,7 @@
 		<p class="headingPage"> Login </p>
 		<form class="form" action="login" method="post" >
 		 <p>User Name: <br/> <input type="text" name="username" required/> </p>
-		  <p>Password: <br/> <input type="text" name="password" required/> </p>
+		  <p>Password: <br/> <input type="password" name="password" required/> </p>
 		 <button class="btn" type="submit">Submit</button>
 		 <p style="text-align: center;"> <a style="text-decoration: none;" href="/registration">Or Sign up</a></p>
 		</form>

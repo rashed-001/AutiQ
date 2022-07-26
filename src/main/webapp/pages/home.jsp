@@ -63,7 +63,7 @@
             <div class="col3">
                 <img src="/images/image1.webp" alt="not Found">
             </div>
-            <div class="col3"><img src="/images/img3.jpg" alt="Not Found"></div>
+            <div class="col3"><img src="/images/img3.png" alt="Not Found"></div>
             <div class="col3"><img src="/images/img4.png" alt="Not Found"></div>
         </div>
     </div>

@@ -49,7 +49,7 @@
     <!-- Featch The data and Show -->
     
     <script type="text/javascript">
-		/* Ajax Requext send to get the data */
+		/* Ajax Requext send to get the data using Rest API*/
 		let catagory = ${catagory};
 		let obj = [];
 		let index = 0;
