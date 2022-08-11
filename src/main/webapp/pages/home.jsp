@@ -44,7 +44,7 @@
                         is a developmental disability <br>
                         caused by differences in the brain <br>
                         
-                        <a href="" class="btn"> Introductory Video &#8594;</a>
+                        <a href="https://www.youtube.com/watch?v=k_HCmjOBFdE"  class="btn"> Introductory Video &#8594;</a>
                     </p>
                 </div>
                 <div class="col2">
